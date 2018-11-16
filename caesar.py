@@ -16,7 +16,7 @@ def rotate_string_13(text):
             rotated = rotated + alphabet[rotated_idx]
 
     return rotated
-
+##stuff
 def rotate_character(char, rot):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     rotated_idx = (alphabet_position(char) + rot) % 26
